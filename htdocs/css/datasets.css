@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar-dark {
+    background-color: #333333;
+}
+
+.row-title {
+    border-bottom: 1px solid grey ;
+}
+
+.col-title {
+    padding-bottom: 20px;
+}
+
+.col-title h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#datasets-container {
+    margin-top: 100px;
+}
+
+.row-content {
+    min-height: 400px;
+    margin: 50px auto;
+    padding: auto 0px;
+}
+
+.card-datasets {
+    height: auto; 
+    overflow-x: hidden; 
+    border: none;
+}
+
+.card-datasets:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.modal-body {
+    color: black;
+}
+
+.modal-header {
+    background-color: black;
+}
+
+#login-button {
+    background-color: black;
+}
+
+.btn-datasets {
+    background-color: black;
+}
+
+.row-contribute {
+    display: none;
+}
+
+#view-datasets-tab {
+    min-height: 400px;
+}
+
+.models-row:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}

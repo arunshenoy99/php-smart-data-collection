@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar-dark {
+    background-color: #333333;
+}
+
+#about-container {
+    margin-top: 90px;
+}
+
+.row-title {
+    border-bottom: 1px solid grey ;
+}
+
+.col-title {
+    padding-bottom: 20px;
+}
+
+.col-title h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.row-content {
+    min-height: 400px;
+    margin: 50px auto;
+    padding: auto 0px;
+}
+
+.title-main {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.modal-header {
+    background-color: black;
+}
+
+#login-button {
+    background-color: black;
+}
+
+.creator-name {
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}

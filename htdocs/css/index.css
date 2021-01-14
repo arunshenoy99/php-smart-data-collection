@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-dark {
+        background-color: #333333;
+    }
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+} 
+
+.carousel .carousel-item {
+    height: 100%;
+}
+
+.carousel-image {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20vh;
+    height: 30%;
+}
+
+.carousel-header {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.carousel-caption p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+#carousel-alternative {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#carousel-alternative-info {
+    height: 100%;
+    width: 100%;
+}
+
+.title-main {
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.modal-header {
+    background-color: black;
+}
+
+#login-button {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}

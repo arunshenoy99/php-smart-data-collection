@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar-dark {
+    background-color: #333333;
+}
+
+.card-datasets:hover {
+    background-color: #f2f2f2;
+    cursor: pointer
+}
+
+#profile-container {
+    margin-top: 100px;
+}
+
+#activity-tab, #uploads-tab {
+    height: 50vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+
+.row-edit {
+    display: none;
+}

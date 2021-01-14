@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar-dark {
+    background-color: #333333;
+}
+
+#contact-container {
+    margin-top: 90px;
+}
+
+.row-title {
+    border-bottom: 1px solid grey;
+}
+
+.col-title {
+    padding-bottom: 20px;
+}
+
+.col-title h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.row-content {
+    min-height: 400px;
+    margin: 50px auto;
+    padding: auto 0px;
+}
+
+.modal-header {
+    background-color: black;
+}
+
+#login-button {
+    background-color: black;
+}
+
+.btn-submit {
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
